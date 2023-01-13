@@ -1,3 +1,6 @@
+import sys
+input=sys.stdin.readline
+
 def find(num, arr):
     if len(arr) == 0:
         return 0
